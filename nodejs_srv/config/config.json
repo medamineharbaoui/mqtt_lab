@@ -1,0 +1,8 @@
+{
+    "username": "harbaoui",
+    "password": "12345678",
+    "database": "iot_data",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+  
