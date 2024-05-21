@@ -33,6 +33,11 @@ router.get('/historical-data', async (req, res) => {
     }
 });
 
+//
+
+export default router;
+
+
 // Endpoint to fetch moving averages
 /*
 router.get('/moving-averages', async (req, res) => {
@@ -68,5 +73,3 @@ function calculateMovingAverage(data, windowSize) {
     return movingAverages;
 }
 */
-
-export default router;

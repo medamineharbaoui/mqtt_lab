@@ -1,14 +1,14 @@
 # Use the official Node-RED base image
 FROM nodered/node-red:latest
 
-# Set the working directory to /node_red_srv
+# Set the working directory
 WORKDIR /node_red_srv
 
-COPY package.json ./
+# Copy package.json and package-lock.json first for better caching
+COPY package.json package-lock.json ./
 
 # Install dependencies
 RUN npm install
-
 
 # Copy the rest of the application code
 COPY . .
