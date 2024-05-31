@@ -11,7 +11,6 @@ const GaugeComponent = () => {
     mqttService.connect((data) => {
       setTemperature(data.temperature);
       setHumidity(data.humidity);
-      //console.log(temperature)
     });
   }, []);
 

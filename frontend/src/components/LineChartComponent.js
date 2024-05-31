@@ -80,13 +80,12 @@ const handleRefresh = () => {
         >
           <MenuItem value="24h">Last 24 Hours</MenuItem>
           <MenuItem value="week">Last Week</MenuItem>
-          {/* Add more options for other date ranges as needed */}
         </Select>
         <Button variant="contained" onClick={handleRefresh} style={{marginTop:'20%'}}>Refresh Data</Button>
       </FormControl>
       {historicalData ? (
-        <Grid container spacing={2}> {/* Grid container */}
-          <Grid item xs={6}> {/* Left half */}
+        <Grid container spacing={2}> 
+          <Grid item xs={6}> 
             <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" marginTop="-7%">
               <LineChart
                 width={600}
@@ -102,7 +101,7 @@ const handleRefresh = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={6}> {/* Right half */}
+          <Grid item xs={6}> 
             <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" marginTop="-7%">
               <LineChart
                 width={600}
