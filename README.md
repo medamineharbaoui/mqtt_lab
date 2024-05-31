@@ -1,27 +1,17 @@
- IoT Dashboard	 
+# IoT Dashboard - MQTT_Node.js_React.js_Arduino
 
- 
-Introduction 
+Introduction
+    This project involves the development of an IoT monitoring system that simulates an Arduino with a DHT11 sensor to publish temperature and humidity data to an MQTT broker. The data is then consumed by a Node.js server, stored in a MySQL database, and visualized in real-time and historical formats using a React dashboard. 
+    An optional Node-RED dashboard also visualizes the real-time and historical data. The entire system is containerized using Docker, ensuring seamless deployment and scalability.
 
-This project involves the development of an IoT monitoring system that 	simulates an Arduino with a DHT11 sensor to publish temperature and 	humidity data to an MQTT broker. The data is then consumed by a Node.js server, stored in a MySQL database, and visualized in real-time and historical formats using a React dashboard.  
-
-An optional Node-RED dashboard also visualizes the real-time and historical data. The entire system is containerized using Docker, ensuring seamless 	deployment and scalability. 
-
- 
-
-Components 
-
-    - Arduino with DHT11 sensor (simulated) / MQTT broker / Node.js server 
-
-    - MySQL database 
-
-    - React application for the dashboard 
-
-    - Node-RED for the optional dashboard 
-
-    - Docker and Docker Compose 
-
- 
+Materials
+    - Arduino with DHT11 sensor (simulated)
+    - MQTT broker
+    - Node.js server
+    - MySQL database
+    - React application for the dashboard
+    - Node-RED for the optional dashboard
+    - Docker and Docker Compose
 
 Approach 
 
@@ -55,7 +45,6 @@ Containerization with Docker
 
     - Docker Compose Configuration: Define services for Node.js, React, Node-RED, 	and MySQL in a docker-compose.yml file to run the entire application stack 	in multi-container Docker setup. 
 
- 
 
 System Workflow 
 
@@ -67,14 +56,7 @@ System Workflow
 
     4- The optional Node-RED dashboard provides an alternative visualization 	interface. 
 
- 
 
 Conclusion 
 
 This project showcases the integration of various technologies to build a robust IoT monitoring system. The successful implementation of the system highlights the potential for similar applications in real-world scenarios where real-time and historical data monitoring is crucial. The use of Docker for containerization simplifies deployment and management, making the system highly scalable. 
-
- 
-
- 
-
- 
