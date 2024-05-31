@@ -1,4 +1,4 @@
-# SDM_lab
+# IoT Dashboard - MQTT_Node.js_React.js_Arduino
 
 Introduction
     This project involves the development of an IoT monitoring system that simulates an Arduino with a DHT11 sensor to publish temperature and humidity data to an MQTT broker. The data is then consumed by a Node.js server, stored in a MySQL database, and visualized in real-time and historical formats using a React dashboard. 
